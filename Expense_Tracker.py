@@ -18,17 +18,24 @@ def Expense_Tracker():
 
             expense.update({category: amount})
 
-        with open("Expense.txt", "a", encoding="utf-8") as f:
+        with open("Expense.txt", "a") as f:
             f.write(date + "\n")
             f.write("\n")
 
             for category, amount in expense.items():
-                f.write(f"{category}: ₹{amount}\n")
+                f.write(f"{category}: Rs. {amount}\n")
 
             f.write("\n"*2)
 
-        print("-"*20)
+        print("-"*30)
         print(expense)
-        print("-"*20)
+        print("-"*30)
+
+    elif(choice == 2):
+        with open("Expense.txt") as f:
+            r = f.read()
+            print("="*30)
+            print(r)
+            print("="*30)
 
 Expense_Tracker()
