@@ -70,5 +70,25 @@ def Expense_Tracker():
                 print("-"*7,"Error: Date not Found!","-"*7)
 
         if(sub_choice == 2):
-            
+            search_category = input("Enter the category: ")
+            current_date = ""
+
+            found = False 
+
+            with open("Expense.txt") as f:
+                for line in f:
+                    if len(line.strip()) == 10 and "/" in line:
+                        current_date = line.strip()
+
+                    if line.lower().startswith(search_category.lower() + ":"):
+                        found = True 
+                        print("="*30)
+                        print(current_date)
+                        print(line)
+                        print("="*30)
+                        continue
+
+            if not found:
+                print("-"*7,"Error: Category not Found!","-"*7)
+
 Expense_Tracker()
