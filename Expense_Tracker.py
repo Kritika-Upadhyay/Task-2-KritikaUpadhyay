@@ -3,6 +3,7 @@ def Expense_Tracker():
     print("-"*7,"MY EXPENSES","-"*7)
 
     print("1. Add Expenses \n2. View Expenses \n3. Search Expenses \n4. Edit Expense \n5. Delete Expense \n6. View Total Expenses \n7. Exit")
+    print("-"*28)
 
     expense = {}
     choice = int(input("Enter your choice (1-7): "))
@@ -27,9 +28,9 @@ def Expense_Tracker():
 
             f.write("\n"*2)
 
-        print("-"*30)
+        print("="*30)
         print(expense)
-        print("-"*30)
+        print("="*30)
 
     elif(choice == 2):
         with open("Expense.txt") as f:
@@ -37,5 +38,15 @@ def Expense_Tracker():
             print("="*30)
             print(r)
             print("="*30)
+
+    elif(choice == 3):
+        print("-"*30)
+        print("1. Search by Date \n2. Search by Category")
+        print("-"*30)
+
+        sub_choice = int(input("Enter your choice: "))
+
+        if(sub_choice == 1):
+            search_date = input("Enter the date: ")
 
 Expense_Tracker()
