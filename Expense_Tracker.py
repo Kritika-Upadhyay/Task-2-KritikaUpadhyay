@@ -21,12 +21,11 @@ def Expense_Tracker():
 
         with open("Expense.txt", "a") as f:
             f.write(date + "\n")
-            f.write("\n")
 
             for category, amount in expense.items():
                 f.write(f"{category}: Rs. {amount}\n")
 
-            f.write("\n"*2)
+            f.write("\n")
 
         print("="*30)
         print(expense)
@@ -47,6 +46,29 @@ def Expense_Tracker():
         sub_choice = int(input("Enter your choice: "))
 
         if(sub_choice == 1):
-            search_date = input("Enter the date: ")
+            search_date = input("Enter the date (DD/MM/YYYY): ")
 
+            found = False
+
+            with open("Expense.txt") as f:
+                for line in f:
+                    if line.strip() == search_date:
+                        found = True
+                        print("="*30)
+                        print(line, end="")
+                        print("="*30)
+                        continue
+
+                    if found:
+                        if line.strip() == "":
+                            print("="*30)
+                            break
+
+                        print(line, end="")
+
+            if not found:
+                print("-"*7,"Error: Date not Found!","-"*7)
+
+        if(sub_choice == 2):
+            
 Expense_Tracker()
