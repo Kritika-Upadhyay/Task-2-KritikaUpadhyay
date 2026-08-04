@@ -1,8 +1,10 @@
-03/08/2026
-
+04/08/2026
 Food: Rs. 500
 Shopping: Rs. 1000
-Travel: Rs. 400
+Travel: Rs. 300
 Insurance: Rs. 700
 
+05/08/2026
+Food: Rs. 100
+Travel: Rs. 400
 
