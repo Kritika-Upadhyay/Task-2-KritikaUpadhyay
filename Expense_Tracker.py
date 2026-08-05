@@ -129,5 +129,41 @@ def Expense_Tracker():
             else:
                 print("-"*7,"Error: Expense not Found!","-"*7)
 
+    elif(choice == 5):
+        delete_date = input("Enter the date in which you want to Delete an expense (DD/MM/YYYY): ")
+        delete_category = input("Enter the category which you want to Delete: ")
+        
+        found_date = False
+        found_category = False
+        
+        with open("Expense.txt") as f:
+            lines = f.readlines()
+            for i in range(len(lines)):
+                if lines[i].strip() == delete_date:
+                    found_date = True 
+                    continue 
+        
+                if found_date:
+                    if lines[i].lower().startswith(delete_category.lower() + ":"):
+                        found_category = True 
+                                
+                        del lines[i]
+                        break
+        
+                    if lines[i].strip() == "":
+                        break
+        
+            if found_category:
+                with open("Expense.txt", "w") as f:
+                    f.writelines(lines)
+        
+                print("-"*30)
+                print("Expense Deleted Successfully!")
+                print("-"*30)
+        
+        
+            else:
+                print("-"*7,"Error: Expense not Found!","-"*7)
+
 
 Expense_Tracker()
