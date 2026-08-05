@@ -182,4 +182,15 @@ def Expense_Tracker():
             print(f"The total expenses spent are: Rs. {total}")        
             print("="*30)
 
-Expense_Tracker()
+    elif(choice == 7):
+        print("Exiting The Program...")
+        return False
+
+#     else:
+#         print("Invalid Choice!")
+
+#     return True
+
+# while True:
+#     if Expense_Tracker() == False:
+#         break
