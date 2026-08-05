@@ -91,4 +91,43 @@ def Expense_Tracker():
             if not found:
                 print("-"*7,"Error: Category not Found!","-"*7)
 
+    elif(choice == 4):
+        edit_date = input("Enter the date in which you want to make changes (DD/MM/YYYY): ")
+        edit_category = input("Enter the category in which you want to make changes: ")
+
+        found_date = False
+        found_category = False
+
+        with open("Expense.txt") as f:
+            lines = f.readlines()
+            for i in range(len(lines)):
+                if lines[i].strip() == edit_date:
+                    found_date = True 
+                    continue 
+
+                if found_date:
+                    if lines[i].lower().startswith(edit_category.lower() + ":"):
+                        found_category = True 
+
+                        new_category = input("Enter the new category (eg: Food, Shopping, Insurance, etc.): ")
+                        new_amount = int(input("Enter the total amount spent on that category: "))
+                        
+                        lines[i] = f"{new_category}: Rs. {new_amount}\n"
+
+                    if lines[i].strip() == "":
+                        break
+
+            if found_category:
+                with open("Expense.txt", "w") as f:
+                    f.writelines(lines)
+
+                print("-"*30)
+                print("Expense Updated Successfully!")
+                print("-"*30)
+
+
+            else:
+                print("-"*7,"Error: Expense not Found!","-"*7)
+
+
 Expense_Tracker()
