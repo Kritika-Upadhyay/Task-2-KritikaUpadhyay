@@ -165,5 +165,7 @@ def Expense_Tracker():
             else:
                 print("-"*7,"Error: Expense not Found!","-"*7)
 
+    elif(choice == 6):
+
 
 Expense_Tracker()
