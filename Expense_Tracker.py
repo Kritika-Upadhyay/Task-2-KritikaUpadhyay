@@ -186,8 +186,8 @@ def Expense_Tracker():
         print("Exiting The Program...")
         return False
 
-#     else:
-#         print("Invalid Choice!")
+    else:
+        print("Invalid Choice!")
 
 #     return True
 
