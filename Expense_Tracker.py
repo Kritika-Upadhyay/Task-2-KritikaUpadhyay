@@ -166,6 +166,20 @@ def Expense_Tracker():
                 print("-"*7,"Error: Expense not Found!","-"*7)
 
     elif(choice == 6):
+        total = 0
 
+        with open("Expense.txt") as f:
+            r = f.readlines()
+        
+            for line in r:
+
+                if("Rs. " in line):
+                    parts = line.split("Rs. ")
+                    amount = int(parts[1])
+                    total = total + amount
+
+            print("="*30)
+            print(f"The total expenses spent are: Rs. {total}")        
+            print("="*30)
 
 Expense_Tracker()
