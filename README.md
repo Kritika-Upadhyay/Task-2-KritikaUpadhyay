@@ -8,7 +8,7 @@ This project was developed to practice Python fundamentals by implementing a rea
 
 ## 📸 Project Preview
 
-<img width="433" height="512" alt="Screenshot 2026-08-06 133550" src="https://github.com/user-attachments/assets/cef1640d-484b-46d1-9a66-d8422d7bff3b" />
+<img width="295" height="506" alt="Screenshot 2026-08-06 134314" src="https://github.com/user-attachments/assets/f34da2e0-a84b-490c-8059-59dae1fb4fe5" />
 
 ---
 
