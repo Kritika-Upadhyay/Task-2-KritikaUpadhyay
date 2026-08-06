@@ -14,7 +14,7 @@ This project was developed to practice Python fundamentals by implementing a rea
 
 ## 🎥 Demo
 
-
+https://github.com/user-attachments/assets/81210ea5-1ac4-4c1f-a7aa-efd624e6ba56
 
 ---
 
