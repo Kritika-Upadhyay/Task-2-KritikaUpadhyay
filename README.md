@@ -155,4 +155,9 @@ While building this project, I gained hands-on experience with:
 
 **Kritika Upadhyay**
 
+- GitHub: *https://github.com/Kritika-Upadhyay*
+- LinkedIn: *www.linkedin.com/in/kritika-u-131189421*
+
+---
+
 If you found this project useful, consider giving it a ⭐ on GitHub.
