@@ -46,7 +46,7 @@ https://github.com/user-attachments/assets/81210ea5-1ac4-4c1f-a7aa-efd624e6ba56
 ## 📂 Project Structure
 
 ```
-Python_Expense_Tracker/
+Task-2-KritikaUpadhyay/
 │
 ├── Expense_Tracker.py
 ├── Expense.txt
@@ -82,13 +82,13 @@ Each date represents a separate expense record.
 ### Clone the repository
 
 ```bash
-git clone https://github.com/Kritika-Upadhyay/Python_Expense_Tracker.git
+git clone https://github.com/Kritika-Upadhyay/Task-2-KritikaUpadhyay
 ```
 
 ### Navigate to the project folder
 
 ```bash
-cd Python_Expense_Tracker
+cd Task-2-KritikaUpadhyay
 ```
 
 ### Run the program
@@ -150,6 +150,10 @@ While building this project, I gained hands-on experience with:
 - Applying core Python concepts to a practical project
 
 ---
+
+## 🤝 Acknowledgement
+
+This project was developed as part of my **Python Virtual Internship at DecodeLabs**, providing hands-on experience in applying Python concepts to real-world projects.
 
 ## 👩‍💻 Author
 
