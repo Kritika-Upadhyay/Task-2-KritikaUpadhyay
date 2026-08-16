@@ -159,8 +159,8 @@ This project was developed as part of my **Python Virtual Internship at DecodeLa
 
 **Kritika Upadhyay**
 
-- GitHub: *https://github.com/Kritika-Upadhyay*
-- LinkedIn: *www.linkedin.com/in/kritika-u-131189421*
+- GitHub: (https://github.com/Kritika-Upadhyay)
+- LinkedIn: (https://www.linkedin.com/in/kritika-u-131189421)
 
 ---
 
