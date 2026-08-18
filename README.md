@@ -14,7 +14,7 @@ This project was developed to practice Python fundamentals by implementing a rea
 
 ## 🎥 Demo
 
-
+https://github.com/user-attachments/assets/81210ea5-1ac4-4c1f-a7aa-efd624e6ba56
 
 ---
 
@@ -46,7 +46,7 @@ This project was developed to practice Python fundamentals by implementing a rea
 ## 📂 Project Structure
 
 ```
-Python_Expense_Tracker/
+Task-2-KritikaUpadhyay/
 │
 ├── Expense_Tracker.py
 ├── Expense.txt
@@ -82,13 +82,13 @@ Each date represents a separate expense record.
 ### Clone the repository
 
 ```bash
-git clone https://github.com/Kritika-Upadhyay/Python_Expense_Tracker.git
+git clone https://github.com/Kritika-Upadhyay/Task-2-KritikaUpadhyay
 ```
 
 ### Navigate to the project folder
 
 ```bash
-cd Python_Expense_Tracker
+cd Task-2-KritikaUpadhyay
 ```
 
 ### Run the program
@@ -151,11 +151,17 @@ While building this project, I gained hands-on experience with:
 
 ---
 
+## 🤝 Acknowledgement
+
+This project was developed as part of my **Python Virtual Internship at DecodeLabs**, providing hands-on experience in applying Python concepts to real-world projects.
+
 ## 👩‍💻 Author
 
 **Kritika Upadhyay**
 
-- GitHub: *https://github.com/Kritika-Upadhyay*
-- LinkedIn: *www.linkedin.com/in/kritika-u-131189421*
+- GitHub: (https://github.com/Kritika-Upadhyay)
+- LinkedIn: (https://www.linkedin.com/in/kritika-u-131189421)
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
